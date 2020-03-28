@@ -1,5 +1,5 @@
 <template>
-  <section class="SectionComponent hero section content  is-relative is-medium">
+  <section class="SectionComponent hero section content is-relative is-medium">
     <div class="container box">
       <header class="SectionHeader__header is-centered">
         <h1 class="title is-spaced has-text-weight-bold is-3 is-size-5-mobile">
@@ -25,10 +25,10 @@
 
 <script>
 export default {
-  name: "Content",
+  name: 'Content',
   methods: {
     routePush() {
-      window.open("https://milletbard.com/26Memory/#/", "_self")
+      window.open('https://milletbard.com/26Memory/#/', '_self')
     }
   }
 }

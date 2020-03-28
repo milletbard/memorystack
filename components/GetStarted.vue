@@ -12,7 +12,7 @@
       </div>
       <div class="buttons is-centered">
         <button
-          class="button is-bold is-primary  is-medium is-outlined"
+          class="button is-bold is-primary is-medium is-outlined"
           @click="routePush"
         >
           Get started
@@ -24,10 +24,10 @@
 
 <script>
 export default {
-  name: "GetStarted",
+  name: 'GetStarted',
   methods: {
     routePush() {
-      window.open("https://milletbard.com/26Memory/#/", "_self")
+      window.open('https://milletbard.com/26Memory/#/', '_self')
     }
   }
 }
