@@ -1,6 +1,6 @@
 <template>
-  <section id="why-works" class="SectionComponent hero section  is-relative">
-    <div id="how-works" class="mt-11 mt-5-m has-text-weight-bold">
+  <section class="SectionComponent how-works hero section  is-relative">
+    <div class="mt-11 mt-5-m has-text-weight-bold">
       <div class="container pt-5 pb-5 pt-4-m pb-4-m">
         <div class="columns is-centered">
           <div class="column is-15">
@@ -61,7 +61,7 @@
 </template>
 
 <style scoped>
-#how-works .columns {
+.how-works .columns {
   align-items: center;
   display: flex;
   flex-direction: column;

@@ -1,5 +1,5 @@
 <template>
-  <section id="why-works" class="SectionComponent hero section  is-relative">
+  <section class="SectionComponent  why-works hero section  is-relative">
     <div class="container">
       <div class="SectionHeader__header is-centered">
         <h1 class="title is-spaced has-text-weight-bold is-3 is-size-5-mobile">
@@ -22,12 +22,12 @@
 
 <script>
 export default {
-  name: 'WhyWorks'
+  name: "WhyWorks"
 }
 </script>
 
 <style scoped>
-#why-works .container {
+.why-works .container {
   display: flex;
   flex-direction: column;
   max-width: 600px;

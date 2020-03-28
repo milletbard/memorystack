@@ -8,18 +8,14 @@
               <p class="section-heading has-text-weight-bold">Product</p>
               <ul class="mt-2">
                 <li>
-                  <a
-                    class="link-black"
-                    href="http://memorystack.milletbard.com/"
-                    >MemoryStack</a
-                  >
+                  <a href="http://memorystack.milletbard.com/">
+                    <span>MemoryStack</span>
+                  </a>
                 </li>
                 <li>
-                  <a
-                    class="link-black"
-                    href="https://youtubetime.milletbard.com/"
-                    >YoutubeTime</a
-                  >
+                  <a href="https://youtubetime.milletbard.com/">
+                    <span>YoutubeTime</span>
+                  </a>
                 </li>
               </ul>
             </div>
@@ -27,14 +23,14 @@
             <div class="column is-3 footer-column">
               <p class="section-heading has-text-weight-bold">Company</p>
               <ul class="mt-2">
+                <!-- <li>
+                  <nuxt-link class="link-black" to="/PrivacyPolicy">
+                    <span>Privacy Policy</span>
+                  </nuxt-link>
+                </li> -->
                 <li>
-                  <a class="link-black" href="/privacy-policy"
-                    >Privacy Policy</a
-                  >
-                </li>
-                <li>
-                  <a class="link-black" href="mailto:milletbard"
-                    >Contact With Email
+                  <a class="link-black" href="mailto:milletbard">
+                    <span>Contact With Email</span>
                   </a>
                   <!-- &amp; -->
                 </li>
@@ -48,11 +44,11 @@
           <div class="columns is-vcentered">
             <div class="column is-12 text-center" style="font-size: 0.6rem;">
               © 2020 | Developed with by
-              <span
-                ><a target="_blank" href="https://github.com/milletbard"
-                  >Luke Lin.</a
-                ></span
-              >
+              <span>
+                <a target="_blank" href="https://github.com/milletbard">
+                  <span>Luke Lin.</span>
+                </a>
+              </span>
               | All rights reserved
             </div>
           </div>
