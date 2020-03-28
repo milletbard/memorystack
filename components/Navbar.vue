@@ -64,6 +64,9 @@ export default {
 }
 </script>
 <style>
+.navbar {
+  border-bottom: 1px solid #526488;
+}
 /* @keyframes appear {
   0% {
     opacity: 0;

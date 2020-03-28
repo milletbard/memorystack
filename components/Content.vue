@@ -3,20 +3,14 @@
     id="content"
     class="SectionComponent hero section  is-relative is-medium"
   >
-    <div class="container">
+    <div class="container box">
       <header class="SectionHeader__header is-centered">
-        <h1 class="title is-spaced has-text-weight-bold is-2 is-size-4-mobile">
+        <h1 class="title is-spaced has-text-weight-bold is-3 is-size-5-mobile">
           最有效率的背單字計劃表
         </h1>
-        <p class="has-text-weight-bold is-size-7-mobile">
-          MemoryStack 是根據
-          <a
-            href="/integrations"
-            target="_black"
-            class="link-dashed has-text-primary"
-            >The Ebbinghaus Forgetting Curve</a
-          >
-          規則之下產生的記單字計畫表，可以用來製造非常高效率的複習計畫，以更少的精力記住更多的內容，它非常適合考試準備，語言學習等。
+        <p class="has-text-weight-bold is-4 is-size-6-mobile">
+          MemoryStack 是一種 web
+          app，可以幫助你使用更有效率的方式記住你想學習的知識內容，它很適合拿來準備考試，語言學習。
         </p>
       </header>
       <div class="buttons is-centered">

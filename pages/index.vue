@@ -3,9 +3,12 @@
     <Navbar />
     <div class="layout-main">
       <Content />
-      <progress class="progress" value="15" max="100">15%</progress>
-
+      <progress class="progress" value="25" max="100">15%</progress>
+      <why-works />
+      <progress class="progress" value="50" max="100">15%</progress>
       <how-works />
+      <progress class="progress" value="75" max="100">15%</progress>
+      <get-started />
     </div>
 
     <Features />
@@ -17,15 +20,17 @@
 import Navbar from '../components/Navbar'
 import Content from '../components/Content'
 import HowWorks from '../components/HowWorks'
-// import Features from '../components/Features'
+import WhyWorks from '../components/WhyWorks'
+import GetStarted from '../components/GetStarted'
 // import Footer from '../components/Footer'
 export default {
   name: 'App',
   components: {
     Navbar,
     Content,
-    HowWorks
-    // Features,
+    HowWorks,
+    WhyWorks,
+    GetStarted
     // Footer
   }
 }
@@ -62,10 +67,28 @@ export default {
 .layout-main {
   display: flex;
   flex-direction: column;
+  width: 90%;
 }
 
 .links {
   padding-top: 15px;
+}
+
+.progress {
+  width: 85%;
+  margin: 0 auto;
+  margin-top: 1.5rem;
+}
+
+.box {
+  width: 100%;
+  border-radius: 30px;
+  padding: 30px;
+  max-width: 600px;
+}
+
+.button {
+  border-radius: 30px;
 }
 
 @font-face {
