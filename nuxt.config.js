@@ -33,11 +33,11 @@ export default {
   /*
    ** Global CSS
    */
-  css: ['element-ui/lib/theme-chalk/index.css'],
+  css: ['element-ui/lib/theme-chalk/index.css', 'bulma/css/bulma.css'],
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: ['@/plugins/element-ui'],
+  plugins: ['@/plugins/element-ui', '@/plugins/bulma'],
   /*
    ** Nuxt.js dev-modules
    */

@@ -4,7 +4,8 @@
 set -e
 
 # 构建
-npm run build:gh-pages
+npm run generate
+npm run build
 
 # cd 到构建输出的目录下 
 cd dist
@@ -14,7 +15,7 @@ cd dist
 
 git init
 git add -A
-git commit -m 'deploy'
+git commit -m ':rocket: deploy'
 
 # 部署到 https://<USERNAME>.github.io
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
