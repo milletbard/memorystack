@@ -6,7 +6,7 @@
           <logo style="margin-right: -10px;" />MemoryStack</a
         >
 
-        <!-- <a
+        <a
           role="button"
           class="navbar-burger burger"
           aria-label="menu"
@@ -17,27 +17,24 @@
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
-        </a> -->
+        </a>
       </div>
 
-      <!-- <div id="nav-menu" :class="`navbar-menu ${active ? 'is-active' : ''}`">
+      <div id="nav-menu" :class="`navbar-menu ${active ? 'is-active' : ''}`">
         <div class="navbar-start"></div>
 
         <div class="navbar-end">
           <div class="navbar-item">
-            <div class="buttons">
-              <div class="navbar-item">
-                <button
-                  class="button is-bold is-primary is-outlined"
-                  @click="routePush"
-                >
-                  Get started
-                </button>
-              </div>
-            </div>
+            <a @click="routePush">
+              <span
+                class="has-text-weight-bold has-text-grey is-4 is-size-6-mobile"
+                :underline="false"
+                >App</span
+              >
+            </a>
           </div>
         </div>
-      </div> -->
+      </div>
     </div>
   </nav>
 </template>
@@ -56,10 +53,10 @@ export default {
     toggleBurger() {
       const { active } = this
       this.active = !active
+    },
+    routePush() {
+      window.open("https://milletbard.com/26Memory/#/", "_self")
     }
-    // routePush() {
-    //   window.open('https://milletbard.com/26Memory/#/', '_self')
-    // }
   }
 }
 </script>
