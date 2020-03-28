@@ -7,16 +7,17 @@
         </h1>
         <p class="has-text-weight-bold is-4 is-size-6-mobile">
           MemoryStack 是一種 web
-          app，可以幫助你使用更有效率的方式記住你想學習的知識內容，它很適合拿來準備考試，語言學習。
+          app，自動產生有效率的複習計畫，可幫助您以更少的精力記住更多的內容，它很適合拿來準備考試，語言學習。
         </p>
+        <br />
       </header>
 
       <div class="buttons is-centered">
         <button
-          class="button is-bold is-primary is-outlined"
+          class="button is-bold is-primary  is-medium  is-outlined"
           @click="routePush"
         >
-          Get started
+          開始使用
         </button>
       </div>
     </div>
@@ -25,10 +26,10 @@
 
 <script>
 export default {
-  name: 'Content',
+  name: "Content",
   methods: {
     routePush() {
-      window.open('https://milletbard.com/26Memory/#/', '_self')
+      window.open("https://milletbard.com/26Memory/#/", "_self")
     }
   }
 }
@@ -41,7 +42,7 @@ export default {
 .content .container {
   display: flex;
   flex-direction: column;
-  height: 240px;
+
   justify-content: space-between;
 }
 </style>

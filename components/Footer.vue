@@ -1,7 +1,7 @@
 <template>
   <div id="footer" class="mt-11 mt-5-m text-center-ms">
     <div class="container">
-      <div class="columns is-centered">
+      <div class="columns  is-centered">
         <div class="column is-10">
           <div class="columns is-centered">
             <div class="column is-3 footer-column">

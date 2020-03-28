@@ -1,11 +1,11 @@
 <template>
-  <section class="SectionComponent how-works hero section  is-relative">
+  <section class="SectionComponent how-works hero section is-relative">
     <div class="mt-11 mt-5-m has-text-weight-bold">
       <div class="container pt-5 pb-5 pt-4-m pb-4-m">
-        <div class="columns is-centered">
+        <div class="columns content is-centered">
           <div class="column is-15">
             <div class="columns is-centered">
-              <div class="column  is-6 text-center">
+              <div class="column is-6 text-center">
                 <h2
                   class="title is-spaced has-text-weight-bold is-3 is-size-5-mobile"
                 >
@@ -16,7 +16,7 @@
             <div class="columns is-centered mt-2">
               <div class="column box text-center">
                 <div class="explainer-illustration">
-                  <img src="../assets/services/step1.PNG" alt="" />
+                  <img src="../assets/services/step1.PNG" alt />
                 </div>
 
                 <h3 class="bold is-size-4 is-size-4-mobile">
@@ -24,28 +24,28 @@
                   填入你的計劃
                 </h3>
                 <p class="mt-1 is-size-6 is-size-6-mobile">
-                  定義你的List數量以及每個List的內容，(如圖舉例數學共有 3
+                  定義你的List數量以及每個List的內容，(ex: 某項科目共有 3
                   個章節要閱讀，每一天規劃念一個章節)，按下確定產出讀書計畫。
                 </p>
               </div>
-              <div class="column  box text-center">
+              <div class="column box text-center">
                 <div class="explainer-illustration">
-                  <img src="../assets/services/step2.PNG" alt="" />
+                  <img src="../assets/services/step2.PNG" alt />
                 </div>
-                <h3 class="bold  is-size-4 is-size-4-mobile">
+                <h3 class="bold is-size-4 is-size-4-mobile">
                   <span style="font-size: 2rem;">2.</span>
-                  照著計畫表有規律的複習
+                  照著計畫表複習
                 </h3>
-                <p class="mt-1  is-size-6 is-size-6-mobile">
-                  透過有規律的複習
-                  (比起一下子把所有知識塞進腦子裡)，你將能夠更有效率地記住任何知識。
+                <p class="mt-1 is-size-6 is-size-6-mobile">
+                  比起一個晚上把所有知識塞進腦子裡，透過有規律的複習，你將能夠更有效率地記住想學習的知識，如果該天有重複的
+                  `List`，這代表你需要在同一天內多複習一次。
                 </p>
               </div>
-              <div class="column box  text-center">
+              <div class="column box text-center">
                 <div class="explainer-illustration">
-                  <img style="max" src="../assets/services/step3.PNG" alt="" />
+                  <img style="max" src="../assets/services/step3.PNG" alt />
                 </div>
-                <h3 class="bold  is-size-4 is-size-4-mobile">
+                <h3 class="bold is-size-4 is-size-4-mobile">
                   <span style="font-size: 2rem;">3.</span> 將計畫表儲存起來
                 </h3>
                 <p class="mt-1 is-size-6 is-size-6-mobile">
@@ -65,5 +65,9 @@
   align-items: center;
   display: flex;
   flex-direction: column;
+}
+
+.box {
+  margin: 30px 0px;
 }
 </style>
