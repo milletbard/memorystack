@@ -14,7 +14,7 @@
               </div>
             </div>
             <div class="columns is-centered mt-2">
-              <div class="column box  text-center">
+              <div class="column box text-center">
                 <div class="explainer-illustration">
                   <img src="../assets/services/step1.PNG" alt="" />
                 </div>

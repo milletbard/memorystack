@@ -9,10 +9,9 @@
       <how-works />
       <progress class="progress" value="75" max="100">15%</progress>
       <get-started />
+      <progress class="progress" value="100" max="100">15%</progress>
+      <Footer />
     </div>
-
-    <Features />
-    <Footer />
   </div>
 </template>
 
@@ -22,7 +21,8 @@ import Content from '../components/Content'
 import HowWorks from '../components/HowWorks'
 import WhyWorks from '../components/WhyWorks'
 import GetStarted from '../components/GetStarted'
-// import Footer from '../components/Footer'
+import Footer from '../components/Footer'
+
 export default {
   name: 'App',
   components: {
@@ -30,8 +30,8 @@ export default {
     Content,
     HowWorks,
     WhyWorks,
-    GetStarted
-    // Footer
+    GetStarted,
+    Footer
   }
 }
 </script>
