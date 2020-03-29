@@ -2,5 +2,5 @@
   "semi": false,
   "arrowParens": "always",
   "endOfLine": "auto",
-  "singleQuote": false
+  "singleQuote": true
 }

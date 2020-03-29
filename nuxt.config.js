@@ -1,53 +1,53 @@
 const routerBase =
-  process.env.DEPLOY_ENV === "GH_PAGES"
+  process.env.DEPLOY_ENV === 'GH_PAGES'
     ? {
         router: {
-          base: "/memorystack/"
+          base: '/memorystack/'
         }
       }
     : {}
 
 export default {
-  mode: "universal",
+  mode: 'universal',
   /*
    ** Headers of the page
    */
   ...routerBase,
   head: {
-    title: process.env.npm_package_name || "",
+    title: process.env.npm_package_name || '',
     meta: [
-      { charset: "utf-8" },
-      { name: "viewport", content: "width=device-width, initial-scale=1" },
+      { charset: 'utf-8' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       {
-        hid: "description",
-        name: "description",
-        content: process.env.npm_package_description || ""
+        hid: 'description',
+        name: 'description',
+        content: process.env.npm_package_description || ''
       }
     ],
-    link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }]
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
   },
   /*
    ** Customize the progress-bar color
    */
-  loading: { color: "#fff" },
+  loading: { color: '#fff' },
   /*
    ** Global CSS
    */
-  css: ["element-ui/lib/theme-chalk/index.css", "bulma/css/bulma.css"],
+  css: ['element-ui/lib/theme-chalk/index.css', 'bulma/css/bulma.css'],
   /*
    ** Plugins to load before mounting the App
    */
   plugins: [
-    "@/plugins/element-ui",
-    "@/plugins/bulma",
-    { src: "~plugins/ga.js", mode: "client" }
+    '@/plugins/element-ui',
+    '@/plugins/bulma',
+    { src: '~plugins/ga.js', mode: 'client' }
   ],
   /*
    ** Nuxt.js dev-modules
    */
   buildModules: [
     // Doc: https://github.com/nuxt-community/eslint-module
-    "@nuxtjs/eslint-module"
+    '@nuxtjs/eslint-module'
   ],
   /*
    ** Nuxt.js modules

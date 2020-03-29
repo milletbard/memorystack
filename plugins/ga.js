@@ -4,12 +4,12 @@ export default ({ app }) => {
   /*
    ** Only run on client-side and only in production mode
    */
-  if (process.env.NODE_ENV !== "production")
+  if (process.env.NODE_ENV !== 'production')
     return /*
      ** Include Google Analytics Script
      */
   ;(function(i, s, o, g, r, a, m) {
-    i["GoogleAnalyticsObject"] = r
+    i['GoogleAnalyticsObject'] = r
     ;(i[r] =
       i[r] ||
       function() {
@@ -23,14 +23,14 @@ export default ({ app }) => {
   })(
     window,
     document,
-    "script",
-    "https://www.google-analytics.com/analytics.js",
-    "ga"
+    'script',
+    'https://www.google-analytics.com/analytics.js',
+    'ga'
   )
   /*
    ** Set the current page
    */
-  ga("create", "UA-149909624-3", "auto")
+  ga('create', 'UA-149909624-3', 'auto')
   /*
    ** Every time the route changes (fired on initialization too)
    */
@@ -38,7 +38,7 @@ export default ({ app }) => {
     /*
      ** We tell Google Analytics to add a `pageview`
      */
-    ga("set", "page", to.fullPath)
-    ga("send", "pageview")
+    ga('set', 'page', to.fullPath)
+    ga('send', 'pageview')
   })
 }
