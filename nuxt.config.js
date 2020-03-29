@@ -48,7 +48,9 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: [],
+  modules: {
+    plugins: [{ src: "~plugins/ga.js", ssr: false }]
+  },
   /*
    ** Build configuration
    */
