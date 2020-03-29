@@ -3,8 +3,8 @@
     <div class="container">
       <div class="navbar-brand">
         <a class="navbar-item is-size-4 has-text-primary">
-          <logo style="margin-right: -10px;" />MemoryStack</a
-        >
+          <logo style="margin-right: -10px;" />MemoryStack
+        </a>
 
         <a
           role="button"

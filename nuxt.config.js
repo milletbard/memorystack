@@ -37,7 +37,11 @@ export default {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: ["@/plugins/element-ui", "@/plugins/bulma"],
+  plugins: [
+    "@/plugins/element-ui",
+    "@/plugins/bulma",
+    { src: "~plugins/ga.js", mode: "client" }
+  ],
   /*
    ** Nuxt.js dev-modules
    */
@@ -48,9 +52,7 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: {
-    plugins: [{ src: "~plugins/ga.js", ssr: false }]
-  },
+  modules: [],
   /*
    ** Build configuration
    */

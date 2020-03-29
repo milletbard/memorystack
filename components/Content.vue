@@ -14,7 +14,7 @@
 
       <div class="buttons is-centered">
         <button
-          class="button is-bold is-primary  is-medium  is-outlined"
+          class="button is-bold is-primary is-medium is-outlined"
           @click="routePush"
         >
           開始使用
