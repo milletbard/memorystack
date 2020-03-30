@@ -16,15 +16,15 @@
 </template>
 
 <script>
-import Navbar from "../components/Navbar"
-import Content from "../components/Content"
-import HowWorks from "../components/HowWorks"
-import WhyWorks from "../components/WhyWorks"
-import GetStarted from "../components/GetStarted"
-import Footer from "../components/Footer"
+import Navbar from '../components/Navbar'
+import Content from '../components/Content'
+import HowWorks from '../components/HowWorks'
+import WhyWorks from '../components/WhyWorks'
+import GetStarted from '../components/GetStarted'
+import Footer from '../components/Footer'
 
 export default {
-  name: "App",
+  name: 'App',
   components: {
     Navbar,
     Content,
@@ -34,24 +34,24 @@ export default {
     Footer
   },
   data: () => ({
-    title: "MemoryStack | 讀書計畫產生器"
+    title: 'MemoryStack | 讀書計畫產生器'
   }),
   head() {
     return {
       title: this.title,
       meta: [
         {
-          hid: "1",
-          name: "MemoryStack",
+          hid: 'description',
+          name: 'description',
           content:
             "透過有系統的複習形成長期記憶, 讓知識不容易遺忘, 用於生產'讀書計畫'並進行規律複習的生產力工具, "
         }
       ],
       link: [
         {
-          rel: "icon",
-          type: "image/x-icon",
-          href: "./assets/favicon/nuxt-icon-favicon.ico"
+          rel: 'icon',
+          type: 'image/x-icon',
+          href: './assets/favicon/nuxt-icon-favicon.ico'
         }
       ]
     }
@@ -73,8 +73,8 @@ export default {
 }
 
 .title {
-  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont,
-    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   display: block;
   font-weight: 300;
   font-size: 100px;
@@ -121,10 +121,10 @@ export default {
 }
 
 @font-face {
-  font-family: "jf-openhuninn";
-  src: url("../assets/fonts/jf-openhuninn-1.0.ttf");
+  font-family: 'jf-openhuninn';
+  src: url('../assets/fonts/jf-openhuninn-1.0.ttf');
 }
 * {
-  font-family: "jf-openhuninn", Helvetica, Arial, sans-serif !important;
+  font-family: 'jf-openhuninn', Helvetica, Arial, sans-serif !important;
 }
 </style>

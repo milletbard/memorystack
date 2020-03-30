@@ -40,9 +40,9 @@
 </template>
 
 <script>
-import Logo from "./Logo"
+import Logo from './Logo'
 export default {
-  name: "Navbar",
+  name: 'Navbar',
   components: {
     Logo
   },
@@ -55,7 +55,7 @@ export default {
       this.active = !active
     },
     routePush() {
-      window.open("https://milletbard.com/26Memory/#/", "_self")
+      window.open('https://milletbard.com/26Memory/#/', '_self')
     }
   }
 }
